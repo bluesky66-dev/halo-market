@@ -1,33 +1,3 @@
-@font-face {
-    font-family: 'DINPro-Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('DINPro-Light'), url('../fonts/DINPro-Light tr.ttf') format('ttf');
-}
-
-
-@font-face {
-    font-family: 'DINPro-Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('DINPro-Medium'), url('../fonts/DINPro-Medium tr.ttf') format('ttf');
-}
-
-
-@font-face {
-    font-family: 'DINPro Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('DINPro Bold'), url('../fonts/DINPro-Bold tr.ttf') format('ttf');
-}
-
-
-@font-face {
-    font-family: 'DINPro Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('DINPro Black'), url('../fonts/DINPro-Black tr.ttf') format('ttf');
-}
 
 
 
@@ -59,8 +29,8 @@
     border-radius: 5px;
     background-color: #ffffff;
     color: #58c5f1;
-    font-family: "DIN Pro";
-
+    font-family: "DINPro";
+    border:0px;
 }
 
 #header .logos .logo img{
@@ -102,11 +72,11 @@
 
 
 #header  .body  .body2 button{
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 18px;
     color: #58c5f1;
     font-weight: 700;
-    line-height: 47.86px;
+    line-height: 48.86px;
     width: 220px;
     height: 52px;
     border-radius: 3px;
@@ -147,15 +117,15 @@
     font-size:30px;
     color:#58c5f1;
     line-height:62.86px;
-    font-family: "DIN Pro - Black";
-    font-weight: 400;
+    font-family: "DINPro";
+    font-weight: 700;
     margin-bottom:0px;
 }
 
 .size2{
     font-size:18px;
     color: #b2b2b2;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-weight: 500;
 }
 
@@ -179,7 +149,7 @@
     padding-top:83px;
     text-align:center;
     color: #ffffff;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 43px;
     font-weight: 500;
     line-height: 47.77px;
@@ -194,12 +164,13 @@
 .redplane button{
     width: 251px;
     height: 61px;
-    border-radius: 3px;
+    border-radius:3px;
     color: #ef5570;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 21px;
     font-weight: 700;
     line-height: 53.86px;
+    border:0px;
 }
 
 
@@ -212,7 +183,7 @@
 
 .blueplane   .blue p{
     color: #ffffff;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 48px;
     font-weight: 500;
     line-height: 53.86px;
@@ -228,7 +199,7 @@
     border: 3px solid #ffffff;
     background-color: #58c5f1;
     color: #ffffff;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 21px;
     font-weight: 700;
     line-height: 53.86px;
@@ -251,7 +222,7 @@
 
 .pro  .pro0  .pro1  p{
     color: #58c5f1;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 48px;
     font-weight: 500;
 
@@ -262,7 +233,7 @@
 
 .pro  .pro0  .pro2  a{
     color: #787979;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 70px;
     font-weight: 300;
     height:70px;
@@ -304,7 +275,7 @@
 
 
     font-size: 18px;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     text-transform: uppercase;
     font-weight: 200;
     padding-left:35px;
@@ -339,7 +310,7 @@ a:hover,a:focus{
     padding: 12px 15px;
     background: #fff;
     color: #787979;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 30px;
     font-weight: 300;
     /*border: 1px solid #ececec;*/
@@ -450,7 +421,7 @@ a:hover,a:focus{
 
 #repair1  .rowthree  .page1-5  .txt{
     color: #ffffff;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 30px;
     font-weight: 300;
     text-align:center;
@@ -467,6 +438,7 @@ a:hover,a:focus{
     border-radius: 5px;
     background-color: #ffffff;
     text-align:center;
+    border:0px;
 }
 
 #repair1  .rowthree  .page1-5  .viewbtn button{
@@ -475,6 +447,9 @@ a:hover,a:focus{
     border-radius: 5px;
     border: 2px solid #ffffff;
     background-color: #58c5f1;
+    font-family: "DINPro";
+    font-weight: 500;
+    color:#ffffff;
 }
 
 #repair1  .rowthree  .page1-5  .viewbtn{
@@ -537,7 +512,7 @@ a:hover,a:focus{
 
 #repair2  .rowthree  .page2-5  .txt{
     color: #ffffff;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 30px;
     font-weight: 300;
     text-align:center;
@@ -556,6 +531,7 @@ a:hover,a:focus{
     border-radius: 5px;
     background-color: #ffffff;
     padding-left:0px;
+    border:0px;
 }
 
 
@@ -571,9 +547,10 @@ a:hover,a:focus{
     border: 2px solid #ffffff;
     background-color: #58c5f1;
     color: #ffffff;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 16px;
     font-weight: 500;
+
 }
 
 #repair2  .rowthree  .page2-5  .viewbtn{
@@ -671,7 +648,7 @@ a:hover,a:focus{
     border: 2px solid #ffffff;
     background-color: #58c5f1;
     color: #ffffff;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 16px;
     font-weight: 500;
 }
