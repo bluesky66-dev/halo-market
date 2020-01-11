@@ -23,7 +23,7 @@
 }
 
 #header .logos .logo button{
-
+    outline:none;
     width: 150px;
     height: 40px;
     border-radius: 5px;
@@ -83,6 +83,7 @@
     background-color: #ffffff;
     text-align:center;
     border:0px;
+    outline:none;
 }
 
 #header  .body  .body3{
@@ -171,6 +172,7 @@
     font-weight: 700;
     line-height: 53.86px;
     border:0px;
+    outline:none;
 }
 
 
@@ -203,12 +205,14 @@
     font-size: 21px;
     font-weight: 700;
     line-height: 53.86px;
+    outline:none;
 }
 
 
 .blueplane   .blue  .btn4{
     padding-top:50px;
     padding-left:30px;
+
 }
 
 .blueplane  .broken-phone{
@@ -329,7 +333,7 @@ a:hover,a:focus{
 #accordion .panel-title a:before,
 #accordion .panel-title a.collapsed:before{
     content: url(../img/home-img/icons8-plus-96_copy_2.png);
-    font-family: "Font Awesome 5 Free";
+    font-family: "DINPro";
     width: 30px;
     height: 30px;
     line-height: 28px;
@@ -365,7 +369,124 @@ a:hover,a:focus{
 }
 
 
-/*===============================================repair page1===============================================*/
+#footer{
+    background-color:#4C4C4B;
+}
+
+#footer  .footer{
+    height:307px;
+    background-color:#4C4C4B;
+}
+
+#footer  .footer  .left  .title  .head{
+    padding-top:32px;
+    padding-bottom:15px;
+    font-size:18px;
+    font-weight:500;
+    font-family: "DINPro";
+}
+
+#footer  .footer  .left  .title  .content{
+    font-size:16px;
+    font-weight:400;
+    font-family: "DINPro";
+}
+
+#footer  .footer  .left  .title a{
+    color:#D2D2D2;
+}
+#footer  .footer  .left  .titled a:hover{
+    color:#D2D2D2;
+}
+
+#footer  .footer  .middle  .img1{
+    background-image:url(../img/home-img/phone.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+#footer  .footer  .middle  .content{
+    padding-top:32px;
+    font-weight:400;
+    font-family: "DINPro";
+    font-size:18px;
+    color:#D2D2D2;
+}
+
+#footer  .footer  .middle  .img2{
+    background-image:url(../img/home-img/envelope-1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+
+#footer  .footer  .middle  .offer{
+    padding-top:10px;
+    font-weight:400;
+    font-family: "DINPro";
+    font-size:18px;
+    color:#FFFFFF;
+}
+
+#footer  .footer  .middle  .form input{
+    height:65px;
+}
+
+#footer  .footer  .middle  .form button{
+    height:65px;
+    text-align:center;
+    width:100%;
+    font-family: "DINPro";
+    font-size:18px;
+}
+
+#footer  .footer  .middle  .us{
+    font-weight:400;
+    font-family: "DINPro";
+    font-size:18px;
+    color:#FFFFFF;
+}
+
+#footer  .footer  .middle  .img3{
+    background-image:url(../img/home-img/facebook-logo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height:50px;
+}
+
+#footer  .footer  .middle  .img4{
+    background-image:url(../img/home-img/twitter-black-shape.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height:50px;
+}
+
+#footer  .footer  .middle  .img5{
+    background-image:url(../img/home-img/youtube.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height:50px;
+}
+
+#footer  .footer  .right{
+    background-image:url(../img/home-img/Halo_Market_Logo_-_White-01_copy.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    margin-top:32px;
+}
+
+
+#footer  .footer  .left  .outline{
+    font-size:16px;
+    padding-top:90px;
+}
+    /*===============================================repair page1===============================================*/
 
 
 .page1{
@@ -439,6 +560,7 @@ a:hover,a:focus{
     background-color: #ffffff;
     text-align:center;
     border:0px;
+    outline:none;
 }
 
 #repair1  .rowthree  .page1-5  .viewbtn button{
@@ -450,6 +572,7 @@ a:hover,a:focus{
     font-family: "DINPro";
     font-weight: 500;
     color:#ffffff;
+    outline:none;
 }
 
 #repair1  .rowthree  .page1-5  .viewbtn{
@@ -532,6 +655,7 @@ a:hover,a:focus{
     background-color: #ffffff;
     padding-left:0px;
     border:0px;
+    outline:none;
 }
 
 
@@ -614,7 +738,7 @@ a:hover,a:focus{
 
 #repair3  .rowthree  .page3-5  .txt{
     color: #ffffff;
-    font-family: "DIN Pro";
+    font-family: "DINPro";
     font-size: 30px;
     font-weight: 300;
     text-align:center;
@@ -625,13 +749,14 @@ a:hover,a:focus{
     padding-top: 45px;
 }
 
-#repair3  .rowthree  .page3-5 button{
+#repair3  .rowthree  .page3-5  .rowbtn button{
     width: 120px;
     height: 61px;
     border-radius: 5px;
     background-color: #ffffff;
     text-align:center;
-
+    outline:none;
+    border:0px;
 }
 
 
@@ -651,6 +776,7 @@ a:hover,a:focus{
     font-family: "DINPro";
     font-size: 16px;
     font-weight: 500;
+    outline:none;
 }
 
 #repair3  .rowthree  .page3-5  .viewbtn{
@@ -659,10 +785,1179 @@ a:hover,a:focus{
 }
 
 
+/*==============================================================repair page4=========================================================*/
+
+
+.page4{
+    height: 967px;
+    background-color: #58c5f1;
+}
+
+
+#repair4  .rowone{
+    height:120px;
+}
+
+#repair4  .rowone  .page4-1 {
+    padding-top:35px;
+    padding-left:35px;
+}
+
+#repair4  .rowone  .page4-2{
+
+    text-align:center;
+    padding-top:29px;
+}
+
+
+#repair4  .rowone  .page4-3 {
+    padding-top:35px;
+    padding-right:35px;
+    text-align:right;
+}
+
+#repair4  .rowtwo{
+    height:80px;
+    text-align:center;
+    padding-top:20px;
+}
+
+
+#repair4  .rowthree{
+
+}
+
+#repair4  .rowthree  .page4-4{
+    padding-left:0px;
+}
+
+
+#repair4  .rowthree  .page4-4  .space{
+    height:70px;
+}
+#repair4  .rowthree  .page4-6{
+    padding-right:0px;
+    text-align:right;
+}
+
+#repair4  .rowthree  .page4-5  .txt{
+    color: #ffffff;
+    font-family: "DINPro";
+    font-size: 30px;
+    font-weight: 300;
+    text-align:center;
+}
+
+
+#repair4  .rowthree  .page4-5  .min{
+    padding-right: 10px;
+    height: 22px;
+    
+}
+
+#repair4  .rowthree  .page4-5  .middle{
+    padding-top: 10px;
+    height: 57px;
+    text-align: center;
+}
+
+#repair4  .rowthree  .page4-5  .txt p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-top:25px;
+}
+
+
+#repair4  .rowthree  .page4-5  .rowbtn1  .div{
+    width: 200px;
+    height: 101px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: right;
+    outline: none;
+    border:0px;
+}
+
+
+#repair4  .rowthree  .page4-5  .rowbtn2  .div{
+    width: 200px;
+    height: 101px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: right;
+    outline: none;
+}
+
+#repair4  .rowthree  .page4-5  .rowbtn1  .div  .min img{
+    padding-top:0px;
+}
+
+
+#repair4  .rowthree  .page4-5  .rowbtn1  .div  .middle img{
+
+}
+
+#repair4  .rowthree  .page4-5  .rowbtn2{
+    padding-top:30px;
+}
+
+#repair4  .rowthree  .page4-5  .min button{
+    padding-left:0px;
+    padding-right:0px;
+    background-color: #ffffff;
+    border:0px;
+}
+
+#repair4  .rowthree  .page4-5  .viewbtn1 button{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    background-color: #58c5f1;
+    font-family: "DINPro";
+    font-weight: 500;
+    color:#ffffff;
+    outline: none;
+}
+
+#repair4  .rowthree  .page4-5  .viewbtn2 button{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #EF5570;
+    font-family: "DINPro";
+    font-weight: 500;
+    color:#ffffff;
+    outline: none;
+    border:0px;
+}
+
+
+#repair4  .rowthree  .page4-5  .viewbtn1{
+    padding-top:50px;
+    text-align:center;
+}
+
+#repair4  .rowthree  .page4-5  .viewbtn2{
+    padding-top:50px;
+    text-align:center;
+}
+
+
+#repair4  .rowthree  .page4-5  .textbox{
+    padding-top:50px;
+}
+
+#issues{
+    width: 628px;
+    height: 100px;
+    padding: 8px 8px;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    font-family: "DINPro";
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+/*=======================================================================repair page5=========================================================*/
+
+
+.page5{
+    height: 696px;
+    background-color: #58c5f1;
+}
+
+
+#repair5  .rowone{
+    height:120px;
+}
+
+#repair5  .rowone  .page5-1 {
+    padding-top:35px;
+    padding-left:35px;
+}
+
+#repair5  .rowone  .page5-2{
+    text-align:center;
+    padding-top:29px;
+}
+
+
+#repair5  .rowone  .page5-3 {
+    padding-top:35px;
+    padding-right:35px;
+    text-align:right;
+}
+
+#repair5  .rowtwo{
+    height:70px;
+    text-align:center;
+
+}
+
+
+#repair5  .rowthree{
+
+}
+
+#repair5  .rowthree  .page5-4{
+    padding-left:0px;
+}
+
+
+#repair5  .rowthree  .page5-4  .space{
+    height:32px;
+}
+#repair5  .rowthree  .page5-6{
+    padding-right:0px;
+    text-align:right;
+}
+
+#repair5  .rowthree  .page5-5  .txt{
+    color: #ffffff;
+    font-family: "DINPro";
+    font-size: 30px;
+    font-weight: 300;
+    text-align:center;
+}
+
+
+#repair5  .rowthree  .page5-5  .rowbtn{
+    padding-top: 25px;
+}
+
+#repair5  .rowthree  .page5-5 button{
+    width: 200px;
+    height: 125px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align:center;
+    border:0px;
+    padding-bottom:6px;
+    outline:none;
+}
+
+#repair5  .rowthree  .page5-5 p{
+    font-family: "DINPro";
+    font-size:14px;
+    color:#000000;
+}
+
+#repair5  .rowthree  .page5-5  .viewbtn button{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #EF5570;
+    font-family: "DINPro";
+    font-weight: 500;
+    color:#ffffff;
+    outline:0px;
+}
+
+#repair5  .rowthree  .page5-5  .viewbtn{
+    padding-top:57px;
+    text-align:center;
+}
+
+
+/*==============================================================repair page6=================================================*/
+
+.page6{
+    height: 599px;
+    background-color: #58c5f1;
+}
+
+#repair6 {
+    background-image: url(../img/repair-6/Layer_2.png), url(../img/repair-6/Layer_3.png);
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    /*background-size: 100px 100px, 100px 100px;*/
+}
+
+@media (max-width: 1280px) {
+    #repair6 {
+        background-position-x: -19%, 124%;
+    }
+}
+@media (max-width: 992px) {
+    #repair6 {
+        background-position-x: -43%, 150%;
+    }
+}
+@media (max-width: 768px) {
+    #repair6 {
+        background-position-x: -66%, 179%;
+    }
+}
+
+@media (max-width: 576px) {
+    #repair6 {
+        background-position-x: -108%, 227%;
+    }
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    #repair6 {
+        background-position-x: -200%, 300%;
+        background-image:none;
+    }
+ }
+#repair6  .rowone{
+    height:120px;
+}
+
+#repair6  .rowone  .page6-1 {
+    padding-top:35px;
+    padding-left:35px;
+}
+
+@media (max-width: 576px) {
+    #repair6  .rowone  .page6-1 {
+        padding-top:35px;
+        padding-right: 0;
+    }
+}
+
+#repair6  .rowone  .page6-2{
+    text-align:center;
+    padding-top:29px;
+}
+
+
+#repair6  .rowone  .page6-3 {
+    padding-top:35px;
+    padding-right:35px;
+    text-align:right;
+}
+
+#repair6  .rowtwo{
+    height:49px;
+    text-align:center;
+}
+
+
+#repair6  .rowthree{
+}
+
+#repair6  .rowthree  .page6-4{
+    padding-left:0px;
+    /*background-image: url(../img/repair-6/Layer_2.png);*/
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#repair6  .rowthree  .page6-4  .space{
+    height:53px;
+}
+#repair6  .rowthree  .page6-6{
+    padding-right:0px;
+    text-align:right;
+    /*background-image: url(../img/repair-6/Layer_3.png);*/
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+#repair6  .rowtwo  .page6-7{
+    background-image: url(../img/repair-6/progress6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    #repair6  .rowtwo  .page6-7{
+        background-size: contain;
+    }
+}
+
+#repair6  .rowthree  .page6-5  .txt{
+    color: #ffffff;
+    font-family: "DINPro";
+    font-size: 30px;
+    font-weight: 300;
+    text-align:center;
+    padding-top:30px;
+}
+
+
+#repair6  .rowthree  .page6-5  .rowbtn{
+    padding-top: 54px;
+    text-align:center;
+    padding-left: 118px;
+}
+
+#repair6  .rowthree  .page6-5  .submit{
+    height: 228px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top:20px;
+    text-align:center;
+    padding-top:30px;
+}
+
+
+#repair6  .rowthree  .page6-5  .submit  input{
+    padding-top: 60px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    width:100%;
+    font-family: "DINPro";
+    border: 0;
+    color:#B2B2B2;
+    text-align:center;
+    outline: none;
+}
+
+#repair6 .input-hr {
+    width: 50%;
+    border-top-width:2px;
+    margin-top: 0px;
+}
+
+#repair6  .rowthree  .page6-5{
+    padding-right:0px;
+    padding-left:0px;
+}
+
+/*==============================================================repair page7=================================================*/
+
+.page7{
+    height: 971px;
+    background-color: #58c5f1;
+}
+
+#repair7 {
+    background-image: url(../img/repair-7/left.png), url(../img/repair-7/right.png);
+    background-position: 0 50px , right bottom;
+    background-repeat: no-repeat, no-repeat;
+    /*background-size: 100px 100px, 100px 100px;*/
+}
+
+@media (max-width: 1280px) {
+    #repair7 {
+        background-position-x: -19%, 124%;
+    }
+}
+@media (max-width: 992px) {
+    #repair7 {
+        background-position-x: -43%, 150%;
+    }
+}
+@media (max-width: 768px) {
+    #repair7 {
+        background-position-x: -66%, 179%;
+    }
+}
+
+@media (max-width: 576px) {
+    #repair7 {
+        background-position-x: -108%, 227%;
+    }
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    #repair7 {
+        background-position-x: -200%, 300%;
+        background-image:none;
+    }
+}
+#repair7  .rowone{
+    height:120px;
+}
+
+#repair7  .rowone  .page7-1 {
+    padding-top:35px;
+    padding-left:35px;
+}
+
+@media (max-width: 576px) {
+    #repair7  .rowone  .page7-1 {
+        padding-top:35px;
+        padding-right: 0;
+    }
+}
+
+#repair7  .rowone  .page7-2{
+    text-align:center;
+    padding-top:29px;
+}
+
+
+#repair7  .rowone  .page7-3 {
+    padding-top:35px;
+    padding-right:35px;
+    text-align:right;
+}
+
+#repair7  .rowtwo{
+    height:49px;
+    text-align:center;
+}
+
+
+#repair7  .rowthree{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+}
+
+#repair7  .rowthree  .page7-4{
+    padding-left:0px;
+    /*background-image: url(../img/repair-6/Layer_2.png);*/
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#repair7  .rowthree  .page7-6{
+
+
+}
+#repair7  .rowtwo  .page7-7{
+    background-image: url(../img/repair-7/progress7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    #repair7  .rowtwo  .page7-7{
+        background-size: contain;
+    }
+}
+
+
+
+#repair7  .rowthree  .page7-5{
+    height: 715px;
+    background-color:#ffffff;
+    justify-content: center;
+    padding-top:20px;
+    margin: 0px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:25px;
+}
+
+
+#repair7  .rowthree  .page7-5  .name{
+    padding-top:30px;
+}
+
+
+#repair7  .rowthree  .page7-5  .business{
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:30px;
+}
+
+#repair7  .rowthree  .page7-5 label{
+    font-family: "DINPro";
+    font-size:18px;
+    font-weight: 700;
+    color: #434343;
+    margin-bottom: 0px;
+}
+
+
+#repair7  .rowthree  .page7-5 input{
+    height:50px;
+}
+
+
+#repair7  .rowthree  .page7-8{
+    height: 672px;
+    background-color:#ffffff;
+    border-radius: 5px;
+    padding-left: 28px;
+    padding-right:28px;
+}
+
+
+#repair7  .rowthree  .page7-8  .summary{
+    height: 42px;
+    padding-top:25px;
+}
+
+
+#repair7  .rowthree  .page7-8  .get1{
+    height: 140px;
+    border-bottom:2px solid #DADADA;
+}
+
+#repair7  .rowthree  .page7-8  .get2{
+    height: 140px;
+    border-bottom:2px solid #DADADA;
+}
+
+#repair7  .rowthree  .page7-8  .summary p{
+    color:#EF5570;
+    font-size: 18px;
+    font-weight:600;
+}
+
+
+#repair7  .rowthree  .page7-8  .add{
+    padding-top:25px;
+}
+
+#repair7  .rowthree  .page7-8  .add button{
+    height:68px;
+    color:#5F6060;
+    background-color:#DADADA;
+    border-radius:5px;
+    outline:none;
+    border:0px;
+    width:100%;
+    font-weight:600;
+}
+
+
+#repair7  .rowthree  .page7-8  .discount{
+    height:60px;
+    border-bottom:2px solid #DADADA;
+    font-family: "DINPro";
+    font-size:16px;
+    color:#6C6D6D;
+    padding-top:16px;
+    font-weight:600;
+}
+
+
+#repair7  .rowthree  .page7-8  .continue{
+    text-align:center;
+    padding-top:20px;
+}
+
+#repair7  .rowthree  .page7-8  .continue button{
+    width: 225px;
+    height: 50px;
+    background-color:#EF5570;
+    border-radius: 5px;
+    outline:none;
+    border:0px;
+    font-size:16px;
+    font-family: "DINPro";
+    color:#ffffff;
+}
+
+
+#repair7  .rowthree  .page7-8  .get1{
+    padding-top:20px;
+}
+
+
+#repair7  .rowthree  .page7-8  .get1-1 p{
+    font-family: "DINPro";
+    font-size:16px;
+    color:#6C6D6D;
+    font-weight:500;
+}
+
+
+#repair7  .rowthree  .page7-8  .get1-2 p{
+    font-family: "DINPro";
+    font-size:16px;
+    color:#6C6D6D;
+    font-weight:600;
+    text-align:right;
+}
+
+#repair7  .rowthree  .page7-8  .get2{
+    padding-top:20px;
+}
+
+
+#repair7  .rowthree  .page7-8  .total{
+    font-family: "DINPro";
+    font-size:24px;
+    color:#6C6D6D;
+    padding-top:16px;
+    font-weight:600;
+    height:60px;
+    border-bottom:2px solid #DADADA;
+}
+
+
+#repair7  .rowthree  .page7-8  .total  .money{
+    text-align:right;
+}
+
+/*==============================================================repair page8=================================================*/
+
+.page8{
+    height: 971px;
+    background-color: #58c5f1;
+}
+
+#repair8 {
+    background-image: url(../img/repair-7/left.png), url(../img/repair-7/right.png);
+    background-position: 0 50px , right bottom;
+    background-repeat: no-repeat, no-repeat;
+    /*background-size: 100px 100px, 100px 100px;*/
+}
+
+@media (max-width: 1280px) {
+    #repair8 {
+        background-position-x: -19%, 124%;
+    }
+}
+@media (max-width: 992px) {
+    #repair8 {
+        background-position-x: -43%, 150%;
+    }
+}
+@media (max-width: 768px) {
+    #repair8 {
+        background-position-x: -66%, 179%;
+    }
+}
+
+@media (max-width: 576px) {
+    #repair8 {
+        background-position-x: -108%, 227%;
+    }
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    #repair8 {
+        background-position-x: -200%, 300%;
+        background-image:none;
+    }
+}
+#repair8  .rowone{
+    height:120px;
+}
+
+#repair8  .rowone  .page8-1 {
+    padding-top:35px;
+    padding-left:35px;
+}
+
+@media (max-width: 576px) {
+    #repair8  .rowone  .page8-1 {
+        padding-top:35px;
+        padding-right: 0;
+    }
+}
+
+#repair8  .rowone  .page8-2{
+    text-align:center;
+    padding-top:29px;
+}
+
+
+#repair8  .rowone  .page8-3 {
+    padding-top:35px;
+    padding-right:35px;
+    text-align:right;
+}
+
+#repair8  .rowtwo{
+    height:49px;
+    text-align:center;
+}
+
+
+#repair8  .rowthree{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+}
+
+#repair8  .rowthree  .page8-4{
+    padding-left:0px;
+    /*background-image: url(../img/repair-6/Layer_2.png);*/
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#repair8  .rowthree  .page8-6{
+
+
+}
+#repair8  .rowtwo  .page8-7{
+    background-image: url(../img/repair-7/progress7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    #repair8  .rowtwo  .page8-7{
+        background-size: contain;
+    }
+}
+
+
+#repair8  .rowthree  .page8-5{
+    height: 430px;
+    background-color:#ffffff;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:25px;
+}
+
+
+#repair8  .rowthree  .page8-5  .card{
+     background-image: url(../img/repair-8/Screenshot.png);
+     background-position:right;
+     background-repeat: no-repeat;
+     border:0px;
+ }
+
+#repair8  .rowthree  .page8-5  .pay{
+    background-image: url(../img/repair-8/Layer5.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    border:1px solid #BCBEBD;
+    border-radius: 5px;
+    height:50px;
+}
+
+#repair8  .rowthree  .page8-5  .card p{
+    font-family: "DINPro";
+    font-size:16px;
+    font-weight: 700;
+    color: #434343;
+}
+
+
+#repair8  .rowthree  .page8-5  .payment p{
+    font-family: "DINPro";
+    font-size:16px;
+    font-weight: 700;
+    color: #434343;
+}
+
+#repair8  .rowthree  .page8-5  .card img{
+    text-align:right;
+}
+
+#repair8  .rowthree  .page8-5  .overview p{
+    font-family: "DINPro";
+    font-size:18px;
+    font-weight: 700;
+    color: #434343;
+}
+
+
+#repair8  .rowthree  .page8-5 input{
+    height:50px;
+}
+
+
+#repair8  .rowthree  .page8-8{
+    height: 618px;
+    background-color:#ffffff;
+    border-radius: 5px;
+    padding-left: 28px;
+    padding-right:28px;
+}
+
+
+#repair8  .rowthree  .page8-8  .summary{
+    height: 42px;
+    padding-top:25px;
+}
+
+
+#repair8  .rowthree  .page8-8  .get1{
+    height: 105px;
+    border-bottom:2px solid #DADADA;
+}
+
+#repair8  .rowthree  .page8-8  .get2{
+    height: 140px;
+    border-bottom:2px solid #DADADA;
+}
+
+#repair8  .rowthree  .page8-8  .summary p{
+    color:#EF5570;
+    font-size: 18px;
+    font-weight:600;
+}
+
+
+#repair8  .rowthree  .page8-8  .team p{
+    font-family: "DINPro";
+    font-size:16px;
+    text-align:center;
+    font-weight:700;
+    margin-bottom: 0px;
+}
+
+
+#repair8  .rowthree  .page8-8  .team{
+    font-family: "DINPro";
+    font-size:16px;
+    text-align:center;
+    font-weight:700;
+    font-color:black;
+    padding-top:20px;
+}
+
+#repair8  .rowthree  .page8-8  .team a{
+   color:black;
+    text-decoration-line: underline;
+}
+#repair8  .rowthree  .page8-8  .team a:hover{
+    color:black;
+}
+
+#repair8  .rowthree  .page8-8  .discount{
+    height:60px;
+    border-bottom:2px solid #DADADA;
+    font-family: "DINPro";
+    font-size:16px;
+    color:#6C6D6D;
+    padding-top:16px;
+    font-weight:600;
+}
+
+
+#repair8  .rowthree  .page8-8  .continue{
+    text-align:center;
+    padding-top:25px;
+}
+
+#repair8  .rowthree  .page8-8  .continue button{
+    width: 225px;
+    height: 50px;
+    background-color:#EF5570;
+    border-radius: 5px;
+    outline:none;
+    border:0px;
+    font-size:16px;
+    font-family: "DINPro";
+    color:#ffffff;
+}
+
+
+#repair8  .rowthree  .page8-8  .get1{
+    padding-top:20px;
+}
+
+
+#repair8  .rowthree  .page8-8  .get1-1 p{
+    font-family: "DINPro";
+    font-size:16px;
+    color:#6C6D6D;
+    font-weight:500;
+}
+
+
+#repair8  .rowthree  .page8-8  .get1-2 p{
+    font-family: "DINPro";
+    font-size:16px;
+    color:#6C6D6D;
+    font-weight:600;
+    text-align:right;
+}
+
+#repair8  .rowthree  .page8-8  .get2{
+    padding-top:20px;
+}
+
+
+#repair8  .rowthree  .page8-8  .total{
+    font-family: "DINPro";
+    font-size:24px;
+    color:#6C6D6D;
+    padding-top:16px;
+    font-weight:600;
+    height:60px;
+    border-bottom:2px solid #DADADA;
+}
+
+
+#repair8  .rowthree  .page8-8  .total  .money{
+    text-align:right;
+}
+
+
+/*==============================================================repair page9=================================================*/
+
+.page9{
+    height: 971px;
+    background-color: #58c5f1;
+}
+
+#repair9 {
+    background-image: url(../img/repair-9/left.png), url(../img/repair-9/right.png);
+    background-position: 0 50px , right bottom;
+    background-repeat: no-repeat, no-repeat;
+    /*background-size: 100px 100px, 100px 100px;*/
+}
+
+@media (max-width: 1280px) {
+    #repair9 {
+        background-position-x: -19%, 124%;
+    }
+}
+@media (max-width: 992px) {
+    #repair9 {
+        background-position-x: -43%, 150%;
+    }
+}
+@media (max-width: 768px) {
+    #repair9 {
+        background-position-x: -66%, 179%;
+    }
+}
+
+@media (max-width: 576px) {
+    #repair9 {
+        background-position-x: -108%, 227%;
+    }
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    #repair9 {
+        background-position-x: -200%, 300%;
+        background-image:none;
+    }
+}
+#repair9  .rowone{
+    height:120px;
+}
+
+#repair9  .rowone  .page7-1 {
+    padding-top:35px;
+    padding-left:35px;
+}
+
+@media (max-width: 576px) {
+    #repair9  .rowone  .page9-1 {
+        padding-top:35px;
+        padding-right: 0;
+    }
+}
+
+#repair9  .rowone  .page9-2{
+    text-align:center;
+    padding-top:29px;
+}
+
+
+#repair9  .rowone  .page9-3 {
+    padding-top:35px;
+    padding-right:35px;
+    text-align:right;
+}
+
+#repair9  .rowtwo{
+    height:49px;
+    text-align:center;
+}
+
+
+#repair9  .rowtwo  .page9-7{
+    background-image: url(../img/repair-9/progress9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#repair9  .rowthree{
+    padding-top:40px;
+
+}
+
+#repair9  .rowthree  .success{
+    background-color:#ffffff;
+    border-radius:8px;
+    border:0px;
+    height:466px;
+
+}
+
+
+#repair9  .rowthree  .success  .image{
+    background-image: url(../img/repair-9/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100px;
+    margin-top:20px;
+}
+
+
+#repair9  .rowthree  .success  .text{
+    font-family: "DINPro";
+    font-size:18px;
+    color:#434343;
+    font-weight:500;
+    text-align:center;
+}
+
+#repair9  .rowthree  .success  .text span{
+    color:#EF5570;
+    font-weight:700;
+}
+
+
+#repair9  .rowthree  .pdf{
+    background-image: url(../img/repair-9/Layer4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:80px;
+    margin-top:0px;
+}
+
+
+#repair9  .rowthree  .success .download{
+    font-family: "DINPro";
+    font-size:18px;
+    color:#434343;
+    font-weight:500;
+    text-align:center;
+}
+
+
+#repair9  .rowthree  .success  .download a{
+    color:black;
+    text-decoration-line: underline;
+}
+#repair9  .rowthree  .success  .download a:hover{
+    color:black;
+}
+
+@media (max-width: 768px) {
+    #repair9  .rowtwo  .page9-7{
+        background-size: contain;
+    }
+}
 
 @media (min-width: 1281px){
-
     .container {
         max-width: 1281px;
     }
+}
+
+.rowone button{
+    background-color:#58c5f1;
+    border:0px;
+    outline:none;
 }
