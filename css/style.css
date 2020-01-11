@@ -1235,7 +1235,7 @@ a:hover,a:focus{
 
 #repair7 {
     background-image: url(../img/repair-7/left.png), url(../img/repair-7/right.png);
-    background-position: 0 50px , right bottom;
+    background-position: -236px 97px , right bottom;
     background-repeat: no-repeat, no-repeat;
     /*background-size: 100px 100px, 100px 100px;*/
 }
@@ -1503,7 +1503,7 @@ a:hover,a:focus{
 
 #repair8 {
     background-image: url(../img/repair-7/left.png), url(../img/repair-7/right.png);
-    background-position: 0 50px , right bottom;
+    background-position: -236px 97px , right bottom;
     background-repeat: no-repeat, no-repeat;
     /*background-size: 100px 100px, 100px 100px;*/
 }
@@ -1631,6 +1631,8 @@ a:hover,a:focus{
     border:1px solid #BCBEBD;
     border-radius: 5px;
     height:50px;
+    padding-top: 10px;
+    padding-left: 32px;
 }
 
 #repair8  .rowthree  .page8-5  .card p{
@@ -1803,7 +1805,7 @@ a:hover,a:focus{
 
 #repair9 {
     background-image: url(../img/repair-9/left.png), url(../img/repair-9/right.png);
-    background-position: 0 50px , right bottom;
+    background-position: -236px 97px , right bottom;
     background-repeat: no-repeat, no-repeat;
     /*background-size: 100px 100px, 100px 100px;*/
 }
